@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>navbar</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            nav {
+                border: 1px solid green;
+                background-color: rgba(0, 128, 0, 0.164);
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+            }
+
+            .bag {
+                height: 30px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <section class="bag">
+                <span> | <a href="./home.php">Home</a></span>
+                <span> | <a href="./products.php">Movies</a></span>
+                <span> | <a href="./category.php">Category</a></span>
+                <span> | <a href="./login_register.php">login_register</a></span>
+            </section>
+
+            <aside>
+                <i id="cartnum" class="fas fa-shopping-basket">
+                    cart
+                </i>
+            </aside>
+
+        </nav>
+
+    </body>
+
+</html>
